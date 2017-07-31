@@ -1,0 +1,14 @@
+{
+  "name": "vei-vdom",
+  "version": "0.0.10",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aniwei",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1"
+  }
+}
