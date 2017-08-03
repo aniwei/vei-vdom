@@ -6,11 +6,10 @@ const toString = Object.prototype.toString;
 
 // vtype: 2 - defined, 3 - text, 1 - JSXExpression
 
-function VirtualNode (type, props, children, vtype, host) {
+function VirtualNode (type, props, children, vtype) {
     this.type     = type;
     this.props    = props;
     this.vtype    = vtype;
-    this.host     = host;
 
     if (this.vtype === 2) {
       this.type.toString = () => {
